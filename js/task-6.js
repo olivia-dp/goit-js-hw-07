@@ -8,6 +8,9 @@ btnCreate.addEventListener("click", () => {
   if (amount >= 1 && amount <= 100) {
     createBoxes(amount);
   }
+  else {
+    input.value = "";
+  }
 });
 
 btnDestroy.addEventListener("click", () => {
