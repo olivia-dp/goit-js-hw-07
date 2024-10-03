@@ -1,0 +1,66 @@
+.controls {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin: 0 auto;
+    border-radius: 8px;
+        padding: 32px;
+        width: 486px;
+        height: 104px;
+        background: #f6f6fe;
+}
+.create-btn {
+    border-radius: 8px;
+        padding: 8px 16px;
+        width: 120px;
+        height: 40px;
+        background: #4e75ff;
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.04em;
+            color: #fff;
+            border: none;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.create-btn:hover, .create-btn:focus {
+    background: #6c8cff;
+}
+.destroy-btn {
+    border-radius: 8px;
+        padding: 8px 16px;
+        width: 120px;
+        height: 40px;
+        background: #ff4e4e;
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.04em;
+            color: #fff;
+            border: none;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.destroy-btn:hover, .destroy-btn:focus {
+    background: #ff7070;
+}
+.input-number {
+    border: 1px solid #808080;
+        border-radius: 8px;
+        padding: 8px 8px 8px 64px;
+        width: 150px;
+        height: 40px;
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.04em;
+            color: #2e2f42;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+    border-radius: 8px;
+        padding: 32px;
+        width: 100%
+
+}
