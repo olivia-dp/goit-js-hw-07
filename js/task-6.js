@@ -21,6 +21,7 @@ btnDestroy.addEventListener("click", () => {
 function createBoxes(amount) {
   boxGallery.innerHTML = "";
   let size = 30;
+  const boxElements = document.createDocumentFragment();
     for (let i = 0; i < amount; i++) {
 const box = document.createElement("div");
   box.classList.add("div-item");
@@ -28,9 +29,11 @@ const box = document.createElement("div");
   box.style.height = `${size}px`;
       box.style.backgroundColor = getRandomHexColor()
       box.style.margin = '5px';
-      boxGallery.appendChild(box);
+      boxElements.appendChild(box)
       size += 10;
+      
   }   
+  boxGallery.appendChild(boxElements);
   input.value = "";
 }
 
